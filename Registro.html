@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Suscribete a SignEase</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Logo-SignEase.png" rel="icon">
+  <link href="assets/img/Logo-SignEase.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link href="registration/css/style.css" rel="stylesheet">
+  <style rel="stylesheet">
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1,
+    h2,
+    .badge {
+      font-weight: 400 !important;
+    }
+
+    .boldFont {
+      font-weight: 600 !important;
+    }
+
+    .form-control {
+      padding-left: 24px;
+      padding-right: 24px;
+      height: 58px;
+      outline: none;
+      box-shadow: none !important;
+      border-top: 1px solid #e7e7e7
+    }
+
+    #cardInput {
+      padding-right: 64px;
+    }
+
+    #cardImg {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      opacity: 0.2
+    }
+
+    #rightPanel {
+      background-color: aliceblue;
+    }
+
+    .borderDotted {
+      border-bottom: 1px dashed #d8d8d8;
+    }
+
+    #agreeTerms {
+      height: 20px;
+      width: 20px;
+    }
+
+    button.btn {
+      height: 48px;
+    }
+  </Style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/Logo-H-SignEase.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="getstarted scrollto" href="index.html">Regresar al inicio </a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+    <section>
+      <div class="container">
+        <div class="form-v1-content">
+          <div class="wizard-form">
+            <form class="form-register" action="#" method="post">
+              <div id="form-total">
+                <!-- SECTION 1 -->
+                <h2>
+                  <p class="step-icon"><span>01</span></p>
+                  <span class="step-text">Información Personal</span>
+                </h2>
+                <section style="margin-left: 70px;">
+                  <div class="inner">
+                    <div class="wizard-header">
+                      <h3 class="heading">Información Personal</h3>
+                      <p>Ingrese su información y continúe con el siguiente paso para que podamos crear sus cuentas.</p>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-holder">
+                        <fieldset>
+                          <legend>Nombre</legend>
+                          <input type="text" class="form-control" id="first-name" name="first-name" placeholder="Nombre"
+                            required>
+                        </fieldset>
+                      </div>
+                      <div class="form-holder">
+                        <fieldset>
+                          <legend>Apellido</legend>
+                          <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Apellido"
+                            required>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-holder form-holder-2">
+                        <fieldset>
+                          <legend>Tu correo electrónico</legend>
+                          <input type="text" name="your_email" id="your_email" class="form-control"
+                            pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="ejemplo@email.com" required>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-holder form-holder-2">
+                        <fieldset>
+                          <legend>Número de teléfono</legend>
+                          <input type="text" class="form-control" id="phone" name="phone" placeholder="+1 888-999-7777"
+                            required>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <div class="form-row form-row-date">
+                      <div class="form-holder form-holder-2">
+                        <label class="special-label">Fecha de nacimiento:</label>
+                        <select name="month" id="month">
+                          <option value="MM" disabled selected>MM</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                        </select>
+                        <select name="date" id="date">
+                          <option value="DD" disabled selected>DD</option>
+                          <option value="Feb">Feb</option>
+                          <option value="Mar">Mar</option>
+                          <option value="Apr">Apr</option>
+                          <option value="May">May</option>
+                        </select>
+                        <select name="year" id="year">
+                          <option value="YYYY" disabled selected>YYYY</option>
+                          <option value="2017">2017</option>
+                          <option value="2016">2016</option>
+                          <option value="2015">2015</option>
+                          <option value="2014">2014</option>
+                          <option value="2013">2013</option>
+
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-holder form-holder-2">
+                        <input type="text" class="form-control input-border" id="ssn" name="ssn" placeholder="SSN"
+                          required>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <!-- SECTION 2 -->
+                <h2>
+                  <p class="step-icon"><span>02</span></p>
+                  <span class="step-text">Seleccione su Plan</span>
+                </h2>
+                <section>
+                  <div class="inner">
+                    <div class="wizard-header" style="margin-left: 85px;">
+                      <h3 class="heading">Seleccione su Plan</h3>
+                      <p>Ingrese su información y continúe con el siguiente paso para que podamos crear su cuenta.</p>
+                      <div id="infoActualizada">Selecciona una opción.</div>
+                    </div>
+                    <!-- ======= Pricing Section ======= -->
+                    <section id="pricing" class="pricing">
+                      <div class="container">
+                        <div class="no-gutters" style="margin-left: 100px;">
+                          <div class="form-row">
+                            <div class="form-holder form-holder-2 row">
+                              <div class="col-lg-4 box" data-aos="zoom-in">
+                                <h3>Education</h3>
+                                <h4>$99.99<span>por mes</span></h4>
+                                <ul>
+                                  <li><i class="bx bx-check"></i> Presentaciones con IA ilimitadas</li>
+                                  <li><i class="bx bx-check"></i> Modelo de IA 3d personalizada</li>
+                                  <li class="na"><i class="bx bx-x"></i> <span>Control de gestos</span></li>
+                                  <li class="na"><i class="bx bx-x"></i> <span>Acceso completo a la IA</span></li>
+                                </ul>
+                                <input type="radio" class="radio" name="radio1" id="plan-1" value="plan-1">
+                                <label class="plan-icon plan-1-label" for="plan-1" onclick="actualizarDivConLabel('plan-1');">
+                                  Seleccionar
+                                </label>
+                              </div>
+
+                              <div class="col-lg-4 box featured" data-aos="zoom-in">
+                                <span class="featured-badge">Destacado</span>
+                                <h3>Standard</h3>
+                                <h4>$2.99<span>por hora</span></h4>
+                                <ul>
+                                  <li><i class="bx bx-check"></i> Presentaciones con IA ilimitadas</li>
+                                  <li><i class="bx bx-check"></i> Modelo de IA 3d personalizada</li>
+                                  <li><i class="bx bx-check"></i> Control de gestos</li>
+                                  <li><i class="bx bx-check"></i> Acceso completo a la IA</li>
+                                </ul>
+                                <input type="radio" class="radio" name="radio1" id="plan-2" value="plan-2">
+                                <label class="plan-icon plan-2-label" for="plan-2" onclick="actualizarDivConLabel('plan-2');">
+                                  Seleccionar
+                                </label>
+                              </div>
+
+                              <div class="col-lg-4 box" data-aos="zoom-in">
+                                <h3>Business</h3>
+                                <h4>$149.99<span>por mes</span></h4>
+                                <ul>
+                                  <li><i class="bx bx-check"></i> Presentaciones con IA ilimitadas</li>
+                                  <li><i class="bx bx-check"></i> Modelo de IA 3d personalizada</li>
+                                  <li><i class="bx bx-check"></i> Control de gestos</li>
+                                  <li><i class="bx bx-check"></i> Acceso completo a la IA</li>
+                                </ul>
+                                <input type="radio" class="radio" name="radio1" id="plan-3" value="plan-3">
+                                <label class="plan-icon plan-3-label" for="plan-3" onclick="actualizarDivConLabel('plan-3');">
+                                  Seleccionar
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section><!-- End Pricing Section -->
+                  </div>
+                </section>
+
+                <!-- SECTION 3 -->
+                <h2>
+                  <p class="step-icon"><span>03</span></p>
+                  <span class="step-text">Facturación</span>
+                </h2>
+                <section>
+                  <div class="inner">
+                    <div class="wizard-header">
+                      <h3 class="heading">Facturación</h3>
+                      <p>Ingrese su información y continúe con el siguiente paso para que podamos crear su cuenta.</p>
+                    </div>
+
+                    <div class="form-row" style="margin-left: 44px;">
+                      <div class="row g-5">
+                        <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                          <div class="p-4 border-top">
+                            <div class="d-flex align-items-center justify-content-between">
+                              <div>
+                                <h2 class="p-0 m-0">Pagar con tarjeta</h2>
+                              </div>
+                              <div><span class="badge text-dark border border-dark rounded-3">Powered By <span
+                                    class="boldFont">SignEase</span></span></div>
+                            </div>
+                            <div class="text-secondary mt-4 mb-2">Información de la tarjeta</div>
+                            <div>
+                              <form>
+                                <div class="mb-3 position-relative">
+                                  <input type="text" class="form-control" placeholder="0000 0000 0000 0000"
+                                    id="cardInput">
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="MM / YY">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="CVC">
+                                  </div>
+                                </div>
+                                <div class="mb-3">
+                                  <input type="text" placeholder="Nombre en la tarjeta" class="form-control">
+                                </div>
+                                <div class="text-secondary mt-4 mb-2">Datos de Facturación</div>
+                                <div class="mb-3">
+                                  <input type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="col-lg-8 col-md-6 col-xs-12">
+                                    <input type="text" class="form-control" placeholder="Dirección">
+                                  </div>
+                                  <div class="col-lg-4 col-md-6 col-xs-12">
+                                    <input type="text" class="form-control" placeholder="Zipcode">
+                                  </div>
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Teléfono">
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                          <div class="p-4" id="rightPanel">
+                            <h6 class="text-uppercase"><small>Suscribirse a</small></h6>
+                            <h4 class="boldFont" id="ActualizarPlan">Sin definir</h4>
+
+                            <div class="my-4 d-flex justify-content-between align-items-center">
+                              <div>Suscripción<br><span class="text-secondary"><small id="ActualizarSub">Sin definir</small></span></div>
+                              <div class="w-100 mx-3 borderDotted"></div>
+                              <div id="ActualizarPrecio">$0.00</div>
+                            </div>
+                            <div class="my-4 d-flex justify-content-between align-items-center">
+                              <div style="min-width:130px">IVA 12%<br><span
+                                  class="text-secondary"><small>Impuestos</small></span></div>
+                              <div class="w-100 mx-3 borderDotted"></div>
+                              <div id="ActualizarIVA">$0.00</div>
+                            </div>
+                            <div class="my-4">
+                              <h6>Aplicar código de descuento</h6>
+                              <div class="my-3">
+                                <input type="text" class="bg-white form-control" placeholder="Código">
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="my-4 fs-4">
+                              <div class="d-flex justify-content-between">
+                                <div class="">Total</div>
+                                <div class="text-primary" id="ActualizarTotal">$0.00</div>
+                              </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div><input type="checkbox" id="agreeTerms"></div>
+                              <div class="mx-3">
+                                <label for="agreeTerms">
+                                  <small>
+                                    Estoy de acuerdo con los <a href="#">Términos y condiciones</a> de SignEase.
+                                  </small>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="my-4">
+                              <button class="btn btn-primary text-uppercase w-100"><b>sucribirse</b></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row  justify-content-center">
+          <div class="col-lg-6">
+            <h3>SignEase</h3>
+            <p>Suscribete para informarte de los avances del proyecto, promociones y mucho más.</p>
+          </div>
+        </div>
+
+        <div class="row footer-newsletter justify-content-center">
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>UnityClass</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">UnityClass</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script>
+    function actualizarDivConLabel(radioId) {
+        var radioSeleccionado = document.getElementById(radioId);
+
+        // Simula un cambio en el radio button si no está actualmente seleccionado
+        if (!radioSeleccionado.checked) {
+          radioSeleccionado.checked = true;
+          actualizarDiv(radioSeleccionado.value);
+          console.log(radioSeleccionado.value);
+        }
+      }
+
+      // Actualiza el div basado en el valor del radio button
+      function actualizarDiv(valor) {
+        var textoSeleccionado = "";
+        switch (valor) {
+          case "plan-1":
+            textoSeleccionado = "Has seleccionado: Education ($99.99 por mes)";
+            Plan = "Education plan";
+            Sub = "Mensual";
+            Precio = "$99.99";
+            Iva = "$1,20";
+            Total = "$101,19";
+            break;
+          case "plan-2":
+            textoSeleccionado = "Has seleccionado: Standard ($2.99 por hora)";
+            Plan = "Standard plan";
+            Sub = "Por Hora";
+            Precio = "$2.99";
+            Iva = "$0.36";
+            Total = "$3,35";
+            break;
+          case "plan-3":
+            textoSeleccionado = "Has seleccionado: Business ($149.99 por mes)";
+            Plan = "Business plan";
+            Sub = "Mensual";
+            Precio = "$149.99";
+            Iva = "$18.00";
+            Total = "$167.99";
+            break;
+          default:
+            textoSeleccionado = "Selecciona una opción.";
+            Plan = "Sin definir";
+            Sub = "Sin definir";
+            Precio = "$0.00";
+            Iva = "$0.00";
+            Total = "$0.00";
+            break;
+        }
+        console.log(textoSeleccionado);
+        document.getElementById('infoActualizada').textContent = textoSeleccionado;
+
+        document.getElementById('ActualizarPlan').textContent = Plan;
+        document.getElementById('ActualizarSub').textContent = Sub;
+
+        document.getElementById('ActualizarPrecio').textContent = Precio;
+        document.getElementById('ActualizarIVA').textContent = Iva;
+        document.getElementById('ActualizarTotal').textContent = Total;
+      }
+
+
+  </script>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="registration/js/jquery-3.3.1.min.js"></script>
+  <script src="registration/js/jquery.steps.js"></script>
+  <script src="registration/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/22baff6ce8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
