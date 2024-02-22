@@ -1405,6 +1405,20 @@ section {
   width: 100%;
 }
 
+.msign-1{
+  margin-left: 44px;
+}
+.msign-2{
+  margin-left: 100px;
+}
+.msign-3{
+  margin-left: 85px;
+}
+
+.msign-4{
+  margin-left: 70px;
+}
+
 @media (max-width: 768px) {
 
   #footer .copyright,
@@ -1413,16 +1427,41 @@ section {
     float: none;
     text-align: ceneter;
   }
-}
 
-@media (max-width: 768px) {
   .contenedor-video {
     position: relative;
-    width: 200px;
+    width: 389px;
     padding-top: 100%;
     overflow: hidden;
+    margin-top: 22px;
+  }
+
+  .contenedor-video video {
+    position: absolute;
+    top: -73px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .features .content+.content {
+    margin-top: 0px;
+  }
+
+  .msign-1{
+    margin-left: 0px;
+  }
+  
+  .msign-2{
+    margin-left: 23px;
+  }
+
+  .msign-3{
+    margin-left: 0px;
+  }
+
+  .msign-4{
+    margin-left: 0px;
   }
 }
-
 
 

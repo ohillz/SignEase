@@ -116,7 +116,7 @@
                   <p class="step-icon"><span>01</span></p>
                   <span class="step-text">Información Personal</span>
                 </h2>
-                <section style="margin-left: 70px;">
+                <section class="msign-4">
                   <div class="inner">
                     <div class="wizard-header">
                       <h3 class="heading">Información Personal</h3>
@@ -199,7 +199,7 @@
                 </h2>
                 <section>
                   <div class="inner">
-                    <div class="wizard-header" style="margin-left: 85px;">
+                    <div class="wizard-header msign-3">
                       <h3 class="heading">Seleccione su Plan</h3>
                       <p>Ingrese su información y continúe con el siguiente paso para que podamos crear su cuenta.</p>
                       <div id="infoActualizada">Selecciona una opción.</div>
@@ -207,12 +207,12 @@
                     <!-- ======= Pricing Section ======= -->
                     <section id="pricing" class="pricing">
                       <div class="container">
-                        <div class="no-gutters" style="margin-left: 100px;">
+                        <div class="no-gutters msign-2">
                           <div class="form-row">
                             <div class="form-holder form-holder-2 row">
                               <div class="col-lg-4 box" data-aos="zoom-in">
                                 <h3>Demo</h3>
-                                <h4>Free</h4>
+                                <h4>Gratis</h4>
                                 <ul>
                                   <li><i class="bx bx-check"></i> Presentaciones con IA: límite de 20 min/mes</li>
                                   <li><i class="bx bx-check"></i> Modelo de IA 3d personalizada</li>
@@ -228,7 +228,7 @@
                               <div class="col-lg-4 box featured" data-aos="zoom-in">
                                 <span class="featured-badge">Destacado</span>
                                 <h3>Standard</h3>
-                                <h4>$2.99<span>por hora</span></h4>
+                                <h4>$4.99<span>por hora</span></h4>
                                 <ul>
                                   <li><i class="bx bx-check"></i> Presentaciones con IA ilimitadas</li>
                                   <li><i class="bx bx-check"></i> Modelo de IA 3d personalizada</li>
@@ -275,7 +275,7 @@
                       <p>Ingrese su información y continúe con el siguiente paso para que podamos crear su cuenta.</p>
                     </div>
 
-                    <div class="form-row" style="margin-left: 44px;">
+                    <div class="form-row msign-1">
                       <div class="row g-5">
                         <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                           <div class="p-4 border-top">
@@ -448,8 +448,8 @@
         var textoSeleccionado = "";
         switch (valor) {
           case "plan-1":
-            textoSeleccionado = "Has seleccionado: Free ($0.00)";
-            Plan = "Free plan";
+            textoSeleccionado = "Has seleccionado: Demo ($0.00)";
+            Plan = "Demo plan";
             Sub = "Mensual";
             Precio = "$0.00";
             Iva = "$0.00";
@@ -459,9 +459,9 @@
             textoSeleccionado = "Has seleccionado: Standard ($2.99 por hora)";
             Plan = "Standard plan";
             Sub = "Por Hora";
-            Precio = "$2.99";
-            Iva = "$0.36";
-            Total = "$3,35";
+            Precio = "$4.99";
+            Iva = "$0.60";
+            Total = "$5.59";
             break;
           case "plan-3":
             textoSeleccionado = "Has seleccionado: Business ($149.99 por mes)";
